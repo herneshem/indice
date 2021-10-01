@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/indice/static/js/main.7c8285a3.chunk.js",
+    "main.js.map": "/indice/static/js/main.7c8285a3.chunk.js.map",
+    "runtime-main.js": "/indice/static/js/runtime-main.74fa48c0.js",
+    "runtime-main.js.map": "/indice/static/js/runtime-main.74fa48c0.js.map",
+    "static/css/2.f2512455.chunk.css": "/indice/static/css/2.f2512455.chunk.css",
+    "static/js/2.9f1ecb66.chunk.js": "/indice/static/js/2.9f1ecb66.chunk.js",
+    "static/js/2.9f1ecb66.chunk.js.map": "/indice/static/js/2.9f1ecb66.chunk.js.map",
+    "index.html": "/indice/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/indice/static/css/2.f2512455.chunk.css.map",
+    "static/js/2.9f1ecb66.chunk.js.LICENSE.txt": "/indice/static/js/2.9f1ecb66.chunk.js.LICENSE.txt",
+    "static/media/aviacion.f282514a.png": "/indice/static/media/aviacion.f282514a.png",
+    "static/media/internac.9619e1be.jpg": "/indice/static/media/internac.9619e1be.jpg",
+    "static/media/mascotas.59836354.png": "/indice/static/media/mascotas.59836354.png",
+    "static/media/nacional.a75f1b03.jpg": "/indice/static/media/nacional.a75f1b03.jpg",
+    "static/media/turist.87626be6.png": "/indice/static/media/turist.87626be6.png",
+    "static/media/yo3.eef9deca.jpg": "/indice/static/media/yo3.eef9deca.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74fa48c0.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.9f1ecb66.chunk.js",
+    "static/js/main.7c8285a3.chunk.js"
+  ]
+}
