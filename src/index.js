@@ -34,8 +34,8 @@ const App = () => {
             <div className="col">
             <div className="card ">
               <div className="col-md-2">
-              <Link to="/" className="navbar-brand" aria-current="page"></Link>
-                <Link className="down" onClick={this.onClickDown} to="/nacionales" > <img src={images.img3} className="card-img-top " alt="..."></img></Link>
+              
+                 <img src={imagen.img3} className="card-img-top " alt="..."></img>
               </div>
               <div className="card-body">
                 <h5 className="card-title">Vuelos Nacionales</h5>
