@@ -31,7 +31,7 @@ const App = () => {
             </div>
       <Router>
             <Switch>
-        <Route path="/" exact>
+        <Route path="/" >
           <Ofertas/>
         </Route>     
         
