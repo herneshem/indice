@@ -48,9 +48,6 @@ const App = () => {
 
 }
 
-reactDom.render(<div>
-  <App />
-  <Ofertas/>
-  </div>, document.getElementById("Aviacion"))
+reactDom.render(<App />, document.getElementById("Aviacion"))
 
 
