@@ -31,7 +31,18 @@ const App = () => {
             </div>
             
       
-<Ofertas></Ofertas>
+            <div className="col">
+            <div className="card ">
+              <div className="col-md-2">
+              <Link to="/" className="navbar-brand" aria-current="page"></Link>
+                <Link className="down" onClick={this.onClickDown} to="/nacionales" > <img src={images.img3} className="card-img-top " alt="..."></img></Link>
+              </div>
+              <div className="card-body">
+                <h5 className="card-title">Vuelos Nacionales</h5>
+                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
     </Fragment>
   )
 
