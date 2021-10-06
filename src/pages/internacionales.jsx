@@ -16,7 +16,7 @@ function Internacionales() {
     </div>
     <div className="col-md-5 pt-5 ">
       <div className="card-body "><p></p>
-        <h5 className="card-title" className="mb-3">Card title</h5>
+        <h5 className="card-title mb-3">Card title</h5>
         <label htmlFor="" className="" >Origen  </label>
          <select name="" id="" className="mx-5">
          <option value="">Madrid </option>

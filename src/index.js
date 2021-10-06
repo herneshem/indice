@@ -2,7 +2,7 @@ import React from 'react';
 import { Fragment } from 'react';
 import reactDom from 'react-dom';
 import "bootstrap/dist/css/bootstrap.min.css"
-import Ofertas from './components/ofertas';
+import Ofertas from './components/ofertas'
 import imagen from "./components/imgexport";
 
 
@@ -29,22 +29,17 @@ const App = () => {
                     </div>
                 </div>
             </div>
-            <Ofertas></Ofertas>
-      <Router>
-            <Switch>
-           
-        
-
-        
-
-        </Switch>
-    </Router>
+            
+      
 
     </Fragment>
   )
 
 }
 
-reactDom.render(<App />, document.getElementById("Aviacion"))
+reactDom.render(<div>
+  <App />
+  <Ofertas/>
+  </div>, document.getElementById("Aviacion"))
 
 
