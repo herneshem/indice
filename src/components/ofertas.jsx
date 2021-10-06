@@ -30,7 +30,7 @@ class Ofertas extends React.Component {
           <div className="col">
             <div className="card ">
               <div className="col-md-2">
-              
+              <Link to="/" className="navbar-brand" aria-current="page"></Link>
                 <Link className="down" onClick={this.onClickDown} to="/nacionales" > <img src={images.img3} className="card-img-top " alt="..."></img></Link>
               </div>
               <div className="card-body">
