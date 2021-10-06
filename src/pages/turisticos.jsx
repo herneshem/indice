@@ -3,7 +3,7 @@ import images from '../components/imgexport'
 
 
 
-function Nacionales() {
+function Turisticos() {
 
     return (
 <Fragment>
@@ -12,7 +12,7 @@ function Nacionales() {
 <div className="card mt-3 mb-3 " >
   <div className="row g-0 mx-3 pt-5">
     <div className="col-md-5 pt-5 pb-5"><p></p>
-      <img src={images.img3} className="img-fluid rounded-start" alt="..."></img>
+      <img src={images.img4} className="img-fluid rounded-start" alt="..."></img>
     </div>
     <div className="col-md-5 pt-5">
       <div className="card-body "><p></p>
@@ -38,5 +38,4 @@ function Nacionales() {
     )
 }
 
-export default Nacionales
-
+export default Turisticos
