@@ -31,7 +31,7 @@ const App = () => {
             </div>
       <Router>
             <Switch>
-        <Route path="/" >
+        <Route path="/indice" >
           <Ofertas/>
         </Route>     
         
