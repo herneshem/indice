@@ -14,11 +14,19 @@ function Internacionales() {
     <div className="col-md-5 pt-5 pb-5"><p></p>
       <img src={images.img6} className="img-fluid rounded-start" alt="..."></img>
     </div>
-    <div className="col-md-5 pt-5">
+    <div className="col-md-5 pt-5 ">
       <div className="card-body "><p></p>
-        <h5 className="card-title">Card title</h5>
-        <label htmlFor="" >Destinos  </label>
-         <select name="" id="">
+        <h5 className="card-title" className="mb-3">Card title</h5>
+        <label htmlFor="" className="" >Origen  </label>
+         <select name="" id="" className="mx-5">
+         <option value="">Madrid </option>
+         <option value="">   Barcelona</option>
+         <option value="">   Pais Vasco</option>
+         <option value="">   Galicia</option>
+         </select>
+
+         <label htmlFor="" >Destinos  </label>
+         <select name="" id="" className="mx-5" >
          <option value="">Madrid </option>
          <option value="">   Barcelona</option>
          <option value="">   Pais Vasco</option>
@@ -26,6 +34,8 @@ function Internacionales() {
          </select>
       </div>
     </div>
+
+    
   </div>
 </div>
 

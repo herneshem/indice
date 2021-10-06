@@ -24,6 +24,14 @@ function Nacionales() {
          <option value="">   Pais Vasco</option>
          <option value="">   Galicia</option>
          </select>
+
+         <label htmlFor="" >Destinos  </label>
+         <select name="" id="">
+         <option value="">Madrid </option>
+         <option value="">   Barcelona</option>
+         <option value="">   Pais Vasco</option>
+         <option value="">   Galicia</option>
+         </select>
       </div>
     </div>
   </div>

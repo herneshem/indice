@@ -29,11 +29,10 @@ const App = () => {
                     </div>
                 </div>
             </div>
+            <Ofertas></Ofertas>
       <Router>
             <Switch>
-        <Route path="/" >
-          <Ofertas/>
-        </Route>     
+           
         
 
         

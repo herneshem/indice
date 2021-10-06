@@ -77,6 +77,10 @@ class Ofertas extends React.Component {
 
         <Switch>
 
+        <Route path="/" exact>
+          <Ofertas/>
+        </Route>  
+
           <Route path="/nacionales" >
             <Nacionales />
           </Route>
