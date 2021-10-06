@@ -18,7 +18,7 @@ const App = () => {
     <div className="card mb-3 p-1 mb-2 " >
                 <div className="row g-0">
                     <div className="col-md-4">
-                     <img src={imagen.img2} className="img-fluid rounded-start" alt="..."></img>
+                     <img src={imagen.img5} className="img-fluid rounded-start" alt="..."></img>
                     </div>
                     <div className="col-md-8">
                         <div className="card-body text-center">
@@ -31,18 +31,7 @@ const App = () => {
             </div>
             
       
-            <div className="col">
-            <div className="card ">
-              <div className="col-md-2">
-              
-                 <img src={imagen.img3} className="card-img-top " alt="..."></img>
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Vuelos Nacionales</h5>
-                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
+            
     </Fragment>
   )
 
