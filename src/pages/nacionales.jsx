@@ -17,7 +17,7 @@ function Nacionales() {
     <div className="col-md-5 pt-5">
       <div className="card-body "><p></p>
         <h5 className="card-title">Card title</h5>
-        <label htmlFor="" >Destinos  </label>
+        <label htmlFor="" >Origen  </label>
          <select name="" id="">
          <option value="">Madrid </option>
          <option value="">   Barcelona</option>
@@ -34,12 +34,11 @@ function Nacionales() {
          </select>
       </div>
     </div>
+    <button ><a href="/indice">Salir</a> </button>
   </div>
 </div>
 
-
-         
-        
+      
          
 </Fragment>
 

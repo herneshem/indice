@@ -3,6 +3,7 @@ import images from '../components/imgexport'
 
 
 
+
 function Mascotas() {
 
     return (
@@ -26,6 +27,7 @@ function Mascotas() {
          </select>
       </div>
     </div>
+    <button ><a href="/indice">Salir</a> </button>
   </div>
 </div>
 

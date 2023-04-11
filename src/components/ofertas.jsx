@@ -73,8 +73,9 @@ class Ofertas extends React.Component {
               </div>
             </div>
           </div>
+          
         </div>
-
+        
         <Switch>
 
         <Route path="/" exact>

@@ -26,6 +26,7 @@ function Turisticos() {
          </select>
       </div>
     </div>
+    <button ><a href="/indice">Salir</a> </button>
   </div>
 </div>
 
