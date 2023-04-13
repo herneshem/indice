@@ -32,10 +32,6 @@ const App = () => {
             <Ofertas></Ofertas>
       <Router>
             <Switch>
-           
-        
-
-        
 
         </Switch>
     </Router>

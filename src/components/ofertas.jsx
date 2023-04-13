@@ -10,6 +10,7 @@ import Mascotas from '../pages/mascotas'
 
 
 class Ofertas extends React.Component {
+  
   // Desplamiento hasta el borde inferior de la página
   onClickDown = () => {
     scroll.scrollToBottom();

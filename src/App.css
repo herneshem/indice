@@ -7,10 +7,48 @@
   display: none;
 }
 .lugaresvisible{
-  background-color: blue;
-  height: 100px;
   display: block ;
 }
+.align-bot{
+  text-align: right;
+}
+.align-bot button{margin-top: -35px; width: 100px;}
+/*FORMULARIO DE VIAJE*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  margin: 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
