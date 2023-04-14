@@ -2,7 +2,10 @@
   text-align: center;
 }
 
-
+.choose{
+  display: grid;
+    grid-template-columns: 10% 40% 10% auto;
+}
 .lugares{
   display: none;
 }
@@ -19,6 +22,11 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 400px;
+  margin: auto;
+  border: solid 1px;
+  padding: 30px 25px 5px;
+  background-color: #5e79cf;
 }
 
 label {
@@ -27,7 +35,6 @@ label {
 
 input[type="number"] {
   padding: 5px;
-  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -69,3 +76,25 @@ button:hover {
     transform: rotate(360deg);
   }
 }
+
+
+/* medias-querys */
+
+/* Media query para dispositivos móviles pequeños (smartphones) pantalla de alrededor de 480px */
+@media (max-width: 480px) {
+  /* estilos para dispositivos móviles pequeños */
+  .responsive{display: block; margin: auto;}
+  .chooseresp{grid-template-columns: 1fr 1fr;}
+  form{width: auto;}
+  .align-bot {text-align: center;margin-top: 10px;}
+  }
+  
+  /* Media query para móviles más grandes (tablets)  */
+  @media (max-width: 768px) {
+  /* estilos para dispositivos móviles más grandes */
+  }
+  
+  /* Media query para pantallas de escritorio con una anchura mínima de pantalla de alrededor de 1024px: */
+  @media (min-width: 1024px) {
+  /* estilos para pantallas de escritorio */
+  }

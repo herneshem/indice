@@ -27,11 +27,11 @@ class Ofertas extends React.Component {
 
         {/* TARJETAS */}
 
-        <div className="row  row-cols-md-2 g-4 bg-primary mx-5 pb-3">
+        <div className="responsive row row-cols-md-2 g-4 bg-primary mx-5 pb-3">
           <div className="col">
             <div className="card ">
               <div className="col-md-2">
-              <Link to="/" className="navbar-brand" aria-current="page"></Link>
+              {/* <Link to="/" className="navbar-brand" aria-current="page"></Link> */}
                 <Link className="down" onClick={this.onClickDown} to="/nacionales" > <img src={images.img3} className="card-img-top " alt="..."></img></Link>
               </div>
               <div className="card-body">
