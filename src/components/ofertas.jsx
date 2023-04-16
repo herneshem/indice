@@ -55,7 +55,7 @@ class Ofertas extends React.Component {
           <div className="col">
             <div className="card">
               <div className="col-md-2">
-                <Link  className="down" onClick={this.onClickDown} to="turisticos"> <img src={images.img4} className="card-img-top" alt="..."></img></Link>
+                <Link  className="down" onClick={this.onClickDown} to="/turisticos"> <img src={images.img4} className="card-img-top" alt="..."></img></Link>
               </div>
               <div className="card-body">
                 <h5 className="card-title">Vuelos paquetes turísticos</h5>
@@ -66,7 +66,7 @@ class Ofertas extends React.Component {
           <div className="col">
             <div className="card">
               <div className="col-md-2">
-                <Link  className="down" onClick={this.onClickDown} to="./mascotas"> <img src={images.img5} className="card-img-top" alt="..."></img></Link>
+                <Link  className="down" onClick={this.onClickDown} to="/mascotas"> <img src={images.img5} className="card-img-top" alt="..."></img></Link>
               </div>
               <div className="card-body">
                 <h5 className="card-title">Vuelos Mascotas</h5>
