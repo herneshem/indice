@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import images from '../components/imgexport';
-import '../App.css';
+
 
 function Mascotas() {
   function hand(e) {
@@ -14,7 +14,6 @@ function Mascotas() {
   }
   return (
     <Fragment>
-
 
       <div className="card mt-3 mb-3 " >
         <div className="row g-0 mx-3 pt-5">
